@@ -25,7 +25,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
     }
     if(!isValidUrl(project.demoUrl)) {
       <Link href="/notFound" />;
-      router.push('/notFound');
   } else {
       window.open(project.demoUrl, '_blank');
   }}
@@ -33,7 +32,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
   const handleRepoClick = () => {
     if(!project.repoUrl || project.repoUrl === '') {
       <Link href="/notFound" />;
-      router.push('/notFound');
   } else {
       window.open(project.repoUrl, '_blank');
   }

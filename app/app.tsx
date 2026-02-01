@@ -21,62 +21,6 @@ export interface Project {
 
 const projects: Project[] = [
   {
-    id: "1",
-    title: "Control de Muestras Médicas",
-    description:
-      "Sistema de inventario para gestión de muestras médicas para visitadores",
-    longDescription:
-      "Aplicación completa de gestión de inventario con sistema de alertas de stock bajo, registro de entregas, historial completo y notificaciones automáticas.",
-    image: "medical-samples",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui"],
-    category: "Web App",
-    demoUrl: "https://demo.example.com/medical-samples",
-    repoUrl: "https://github.com/usuario/medical-samples",
-    featured: true,
-  },
-  {
-    id: "2",
-    title: "E-commerce Dashboard",
-    description:
-      "Panel de administración para tienda en línea con análisis en tiempo real",
-    longDescription:
-      "Dashboard completo con estadísticas de ventas, gestión de productos, análisis de clientes y reportes detallados.",
-    image: "ecommerce-dashboard",
-    technologies: ["React", "TypeScript", "Recharts", "Tailwind CSS"],
-    category: "Dashboard",
-    demoUrl: "https://demo.example.com/ecommerce",
-    repoUrl: "https://github.com/usuario/ecommerce-dashboard",
-    featured: true,
-  },
-  {
-    id: "3",
-    title: "Task Management App",
-    description:
-      "Aplicación de gestión de tareas con drag & drop y colaboración en tiempo real",
-    longDescription:
-      "Sistema de gestión de proyectos tipo Kanban con funcionalidades de arrastrar y soltar, asignación de tareas y notificaciones.",
-    image: "task-management",
-    technologies: ["React", "TypeScript", "React DnD", "Tailwind CSS"],
-    category: "Web App",
-    demoUrl: "https://demo.example.com/tasks",
-    repoUrl: "https://github.com/usuario/task-management",
-    featured: false,
-  },
-  {
-    id: "4",
-    title: "Weather Forecast App",
-    description:
-      "Aplicación del clima con pronósticos detallados y mapas interactivos",
-    longDescription:
-      "Aplicación meteorológica con pronósticos por hora, mapas de radar, alertas climáticas y datos históricos.",
-    image: "weather-app",
-    technologies: ["React", "TypeScript", "OpenWeather API", "Leaflet"],
-    category: "Web App",
-    demoUrl: "https://demo.example.com/weather",
-    repoUrl: "https://github.com/usuario/weather-app",
-    featured: false,
-  },
-  {
     id: "5",
     title: "Portfolio Personal",
     description: "Sitio web personal con diseño moderno y animaciones fluidas",
@@ -86,22 +30,8 @@ const projects: Project[] = [
     technologies: ["React", "TypeScript", "Motion", "Tailwind CSS"],
     category: "Website",
     demoUrl: "https://demo.example.com/portfolio",
-    repoUrl: "https://github.com/usuario/portfolio",
+    repoUrl: "https://github.com/ManuCiber/Portfolio.git",
     featured: true,
-  },
-  {
-    id: "6",
-    title: "Blog Platform",
-    description:
-      "Plataforma de blogging con editor de contenido rico y SEO optimizado",
-    longDescription:
-      "Sistema de blog completo con editor WYSIWYG, categorías, etiquetas, búsqueda y optimización SEO.",
-    image: "blog-platform",
-    technologies: ["React", "TypeScript", "MDX", "Next.js"],
-    category: "Website",
-    demoUrl: "https://demo.example.com/blog",
-    repoUrl: "https://github.com/usuario/blog-platform",
-    featured: false,
   },
 ];
 
