@@ -1,7 +1,17 @@
+import { AboutMe } from "@/components/AboutMe";
+import { Header } from "@/components/Header";
+import { HeroSection } from "@/components/HeroSection";
+import { SkillsSection } from "@/components/SkillsSection";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Hola Mundo !</h1>
-    </main>
+    <div className="min-h-screen bg-background">
+      <Header/>
+      <main>
+        <HeroSection/>
+        <AboutMe/>
+        <SkillsSection/>
+      </main>
+    </div>
   );
 }
