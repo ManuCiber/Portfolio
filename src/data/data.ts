@@ -32,3 +32,30 @@ export const certifications = [
      institution: "Platzi"
     },
 ]
+
+export const jobs = [
+  {
+    key: "job1",
+    dateRange: `Jan 2025 - Present`,
+    title: "t.experience.job1.title",
+    company: "t.experience.job1.company",
+    description: "t.experience.job1.description",
+    isPrimary: true,
+  },
+  {
+    key: "job2",
+    dateRange: "Jun 2025 - Dec 2025",
+    title: "t.experience.job2.title",
+    company: "t.experience.job2.company",
+    description: "t.experience.job2.description",
+    isPrimary: false,
+  },
+  {
+    key: "job3",
+    dateRange: "Sep 2024 - May 2025",
+    title: "t.experience.job3.title",
+    company: "t.experience.job3.company",
+    description: "t.experience.job3.description",
+    isPrimary: false,
+  },
+];

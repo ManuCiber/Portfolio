@@ -1,14 +1,12 @@
 "use client"
 
 import {motion} from "framer-motion"
-import { Language, translations } from "./translations"
-import { useState } from "react"
+import { useLanguage } from "./LanguageProvider"
 import { ArrowRight, Mail} from "lucide-react"
 import { useTheme } from "next-themes"
 
 export const HeroSection = () => {
-    const [languaje, setLanguage] = useState<Language>("en")
-    const translation = translations[languaje]
+    const { translation } = useLanguage()
     const {theme} = useTheme()
     const iconSrc = theme === "dark" ? "/github-light.svg" : "/github.svg"
 

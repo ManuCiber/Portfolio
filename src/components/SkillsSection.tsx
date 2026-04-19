@@ -1,13 +1,11 @@
 "use client"
 
-import { useState } from "react"
-import { Language, translations } from "./translations"
+import { useLanguage } from "./LanguageProvider"
 import {motion} from "framer-motion"
 import { skills } from "@/data/data"
 
 export const SkillsSection = () => {
-    const [language, setLanguage] = useState<Language>("en")
-    const translation = translations[language]
+    const { translation } = useLanguage()
 
     return (
         <section className="py-16 px-6 bg-secondary/30">

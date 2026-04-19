@@ -1,13 +1,11 @@
 "use client"
 
 import {motion} from "framer-motion"
-import { Language, translations } from "./translations"
-import { useState } from "react"
+import { useLanguage } from "./LanguageProvider"
 import { Award } from "lucide-react"
 
 export const AboutMe = () => {
-    const [languaje, setLanguage] = useState<Language>("en")
-    const translation = translations[languaje]
+    const { translation } = useLanguage()
     return (
         <section id="about" className="py-24 px-6">
             <div className="max-w-7xl mx-auto">
