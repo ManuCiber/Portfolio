@@ -1,7 +1,10 @@
 import { AboutMe } from "@/components/AboutMe";
+import { ContactForm } from "@/components/ContactForm/ContactForm";
 import { ExperienceSection } from "@/components/Experience";
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
+import { ProjectsSection } from "@/components/ProjectsSection";
 import { SkillsSection } from "@/components/SkillsSection";
 
 export default function Home() {
@@ -13,7 +16,10 @@ export default function Home() {
         <AboutMe/>
         <SkillsSection/>
         <ExperienceSection/>
+        <ProjectsSection/>
+        
       </main>
+      <Footer/>
     </div>
   );
 }

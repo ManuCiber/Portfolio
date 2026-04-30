@@ -16,7 +16,7 @@ export const projects = [
       tech: ["React Native", "Firebase", "Redux"],
       link: "#"
     }
-  ];
+];
 
 export const skills = [
     { icon: Code2, items: ["React", "TypeScript", "Tailwind CSS", "Next.js"] },
